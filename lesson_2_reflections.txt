@@ -9,3 +9,7 @@ repository? What value do you think it offers?
 	but have not yet been added.  It also helps distinguish those files 
 	from other files in the working directory that are not going to be 
 	committed at this time.
+	
+How can you use the staging area to make sure you have one commit per logical change?
+	Use git diff --staged to compare what's in the staging area with the most
+	recent commit to make sure the only changes present are the ones intended.
