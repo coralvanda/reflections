@@ -26,3 +26,10 @@ How do the diagrams help you visualize the branch structure?
 	as well as showing which branches may be unreachable from other 
 	locations.  It also clearly shows which commits and changes are 
 	present in each different branch.
+	
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+	The two branches combine to form a single commit containing code from 
+	both branches, adding or removing code as necessary by comparing the two 
+	tips of the branches being merged with the code that existed before the 
+	branch was created.  Now, both branches serve as parents for the new commit.
