@@ -33,3 +33,9 @@ it in the diagram the way we do?
 	both branches, adding or removing code as necessary by comparing the two 
 	tips of the branches being merged with the code that existed before the 
 	branch was created.  Now, both branches serve as parents for the new commit.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	The advantage is it can save a lot of time and effort in cases where making 
+	the merge is easy.  The disadvantage is that it cannot reason out more 
+	complicated scenarios, and must leave that to the user to do manually, 
+	otherwise its attempt at an automatic merge could result in problems.
