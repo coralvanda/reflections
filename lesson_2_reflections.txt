@@ -20,3 +20,9 @@ history organized? How would branches help?
 	entirely new versions of the code are great times to use branches.
 	They help keep those different code modifications clearly seperate 
 	from the main (master) body of the code.
+
+How do the diagrams help you visualize the branch structure?
+	They show which commits are parents and children of which others,
+	as well as showing which branches may be unreachable from other 
+	locations.  It also clearly shows which commits and changes are 
+	present in each different branch.
