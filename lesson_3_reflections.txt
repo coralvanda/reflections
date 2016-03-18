@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  This would be helpful when coordinating with multiple people from different locations,
+  or when working from different locations on the same files.  Having it stored remotely
+  makes for easier access to the files.
