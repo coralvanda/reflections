@@ -7,3 +7,13 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 	Perhaps there could be updates ont he remote that I don't want to have
 	locally just yet, or at all?  I really have no good answer to this question.
+	
+Describe the differences between forks, clones, and branches. When would 
+you use one instead of another?
+	I can use fork to make my own copy of someone else's repository from Github, 
+	even when I don't have access to edit their repository.  It is essentially
+	the same process as cloning, but Github does it for me on their servers.
+	Cloning allows me to copy my own repository either locally, or from the Github
+	servers.  Branching is when I create a new commit to an existing branch of 
+	a repository, discrete from the branch which its parent is a member of.  This
+	can be done locally or on the Github servers.
