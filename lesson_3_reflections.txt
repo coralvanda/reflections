@@ -17,3 +17,8 @@ you use one instead of another?
 	servers.  Branching is when I create a new commit to an existing branch of 
 	a repository, discrete from the branch which its parent is a member of.  This
 	can be done locally or on the Github servers.
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	It makes it easy to keep track of my local status compared with the Github repository 
+	status.  Differences are much easier to identify, and the appropriate steps can be
+	taken to get the local and remote versions completely up to date.
