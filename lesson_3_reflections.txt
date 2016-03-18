@@ -30,3 +30,13 @@ and what would be harder?
 	the differences in the first place doing it that way.  Although it might be 
 	easier to get the same file on all collaborating machines, it would be much 
 	more likely not to contain all of the changes made by all collaborators.
+	
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+	Making changes in a branch instead of the master allow the master to remain
+	as a fully functional, highly supervised version.  Although the process is
+	more complicated using branches, and finally updating and merging into master,
+	it keeps the master free of any changes that haven't been fully tested.  Updating
+	master directly is much faster, but could potentially result in introducing errors
+	or bugs that then need to be weeded back out, possibly making even more work in
+	the long run.
